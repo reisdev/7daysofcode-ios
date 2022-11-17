@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CEAEE00C292669B2006CB389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEE00B292669B2006CB389 /* AppDelegate.swift */; };
 		CEAEE00E292669B2006CB389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEE00D292669B2006CB389 /* SceneDelegate.swift */; };
-		CEAEE010292669B2006CB389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEE00F292669B2006CB389 /* ViewController.swift */; };
 		CEAEE015292669B4006CB389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAEE014292669B4006CB389 /* Assets.xcassets */; };
 		CEAEE018292669B4006CB389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEE016292669B4006CB389 /* LaunchScreen.storyboard */; };
 		CEAEE023292669B5006CB389 /* _DaysOfCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEE022292669B5006CB389 /* _DaysOfCodeTests.swift */; };
@@ -42,7 +41,6 @@
 		CEAEE008292669B2006CB389 /* 7DaysOfCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7DaysOfCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAEE00B292669B2006CB389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAEE00D292669B2006CB389 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEAEE00F292669B2006CB389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEAEE014292669B4006CB389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAEE017292669B4006CB389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAEE019292669B4006CB389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				CEAEE04229267433006CB389 /* Models */,
 				CEAEE03C292669E8006CB389 /* AppDelegate */,
 				CEAEE03B292669E1006CB389 /* Screens */,
-				CEAEE00F292669B2006CB389 /* ViewController.swift */,
 				CEAEE014292669B4006CB389 /* Assets.xcassets */,
 				CEAEE016292669B4006CB389 /* LaunchScreen.storyboard */,
 				CEAEE019292669B4006CB389 /* Info.plist */,
@@ -306,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAEE010292669B2006CB389 /* ViewController.swift in Sources */,
 				CEAEE00C292669B2006CB389 /* AppDelegate.swift in Sources */,
 				CEAEE04729267613006CB389 /* MovieTableViewCell.swift in Sources */,
 				CEAEE04429267440006CB389 /* Movie.swift in Sources */,
