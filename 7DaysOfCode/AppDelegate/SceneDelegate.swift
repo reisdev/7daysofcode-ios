@@ -18,7 +18,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         
         self.window = UIWindow(windowScene: scene)
-        self.window?.rootViewController = HomeViewController()
+        
+        let service = MovieService(credentialsService: CredentialsService())
+        let viewModel = HomeViewModel(movieService: service)
+        
+        self.window?.rootViewController = HomeViewController(viewModel: viewModel)
         self.window?.makeKeyAndVisible()
     }
 

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Kingfisher
 import UIKit
 
 final class MovieTableViewCell: UITableViewCell {
@@ -90,7 +91,7 @@ final class MovieTableViewCell: UITableViewCell {
     
     func setup(with movie: Movie) {
         titleLabel.text = movie.title
-        releaseDateLabel.text = "Lançamento: \(movie.releaseDate)"
-        coverImageView.image = .init(named: movie.cover)
+        releaseDateLabel.text = "Lançamento: \(movie.releaseDate ?? "")"
+        coverImageView.fetchImage(for: movie.poster ?? "")
     }
 }
